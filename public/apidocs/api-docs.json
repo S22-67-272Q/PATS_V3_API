@@ -1,0 +1,48 @@
+{
+  "apiVersion": "1.0",
+  "swaggerVersion": "1.2",
+  "basePath": "http://localhost:3000",
+  "apis": [
+    {
+      "path": "/apidocs/owners.{format}",
+      "description": "Owner Management"
+    },
+    {
+      "path": "/apidocs/animals.{format}",
+      "description": "Animal Management"
+    },
+    {
+      "path": "/apidocs/pets.{format}",
+      "description": "Pet Management"
+    },
+    {
+      "path": "/apidocs/visits.{format}",
+      "description": "Visit Management"
+    },
+    {
+      "path": "/apidocs/dosages.{format}",
+      "description": "Dosage Management"
+    },
+    {
+      "path": "/apidocs/treatments.{format}",
+      "description": "Treatment Management"
+    },
+    {
+      "path": "/apidocs/medicines.{format}",
+      "description": "Medicine Management"
+    },
+    {
+      "path": "/apidocs/procedures.{format}",
+      "description": "Procedure Management"
+    },
+    {
+      "path": "/apidocs/users.{format}",
+      "description": "User Management"
+    }
+  ],
+  "authorizations": null,
+  "info": {
+    "title": "Pittsburgh Animal Treatment Services API",
+    "description": "Uses swagger ui and docs to document the PATS API"
+  }
+}
